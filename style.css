@@ -1,7 +1,9 @@
 body{
     background-image: url("background.gif");
-    background-repeat: no-repeat;
+    background-size: cover;
     background-position: left top;
+    opacity: 60%;
+    height: 100%;
     }
 
 nav ul li{
