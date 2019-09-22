@@ -10,3 +10,5 @@ body{
 nav ul li{
     list-style-type: none
 }
+
+#one,#two,#three,#four{float:left;background:darkolivegreen;width:25vw;height:100px}
