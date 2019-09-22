@@ -1,6 +1,7 @@
 body{
     background-image: url("background.gif");
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: left top;
     opacity: 60%;
     height: 100%;
