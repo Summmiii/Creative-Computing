@@ -1,7 +1,6 @@
 body{
     background-image: url("background.gif");
-    .my container img {
-        opacity 0.6
+    background-repeat: no-repeat
     }
     
     
