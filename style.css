@@ -1,5 +1,8 @@
 body{
-    background-image: url("Web\ Background.JPG");
-    background-image: opacity 40%
+    background-image: url("background.gif");
+    .my container img {
+        opacity 0.6
+    }
+    
     
 }
