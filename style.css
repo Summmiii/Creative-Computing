@@ -1,5 +1,9 @@
 body{
     background-image: url("background.gif");
     background-repeat: no-repeat
-
+    
     }
+
+nav ul li{
+    list-style-type: none
+}
