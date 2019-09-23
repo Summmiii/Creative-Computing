@@ -1,14 +1,56 @@
+html, body{
+    height:70%;
+}
+
+#container{
+    min-height: 70%;
+}
+
+#main{
+    overflow:auto;
+    padding-bottom: 70px;
+    font-size: 110px;
+    text-align: center;
+}
+
+
+#footer{
+    font-size: 15px;
+    text-align: right;
+    font: bold;
+    background-color: rgb(117, 86, 122);
+    opacity: 0.8;
+    position: relative;
+    height:45px;
+    margin-top:-2px;
+    clear: both;
+} 
+
 body{
+    text-align: right;
     background-image: url("background.gif");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: left top;
-    opacity: 60%;
-    height: 90%;
+    background-position: center;
     }
 
+    
+    header{
+        font-size: 30px;
+        font: bold;
+    }
+
+
+
+    
+
     #one,#two,#three,#four{
-        float:left;background:#b19cb9;width:25vw;height:100px
+        float:left;
+        font-size: 48px;
+        color: white;
+        background:#b19cb9;
+        width:25vw;height:65px;
+        opacity: 0.35;
     }
     
 
@@ -19,4 +61,9 @@ nav ul li{
 nav ul li a:hover{
     color:white
 }
- 
+
+#header{
+    font-size: 10px;
+} 
+
+
