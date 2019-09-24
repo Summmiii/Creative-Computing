@@ -1,0 +1,48 @@
+html, body{
+    height:60%;
+   
+}
+
+#container{
+    min-height: 70%;
+}
+
+#main{
+    overflow:auto;
+    padding-bottom: 70px;
+    font-size: 20px;
+    text-align: left;
+    background-color: rgb(194, 181, 181); height: 500px; opacity: 0.6;
+    float: right;
+}
+
+#sig{
+    opacity: 1.0;
+    position: relative;
+}
+
+body{
+    background-image: url(giphy-1.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 80px;
+    text-align-last: center;
+}
+
+#header{
+    color: rgb(202, 202, 202);
+}
+
+
+#footer{
+    font-size:15px;
+    text-align: right;
+    font: bold;
+    background-color: rgb(117, 86, 122);
+    opacity: 0.6;
+    position: relative;
+    height:45px;
+    margin-top:-2px;
+    clear: both;
+} 
