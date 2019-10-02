@@ -1,0 +1,91 @@
+html{
+    height:100%
+}
+
+
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100%
+}
+
+section{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    justify-content: center;
+    text-align: center;
+    transition: background-color 3s linear;
+    width: 50vw;
+}
+
+section h1{
+    opacity: 0;
+    transition: opacity 3s linear;
+}
+
+section:hover h1{
+    opacity: 1;
+}
+
+section h2{
+    visibility: hidden;
+}
+
+section:hover h2{
+    visibility: visible;
+    -webkit-animation: spin infinite 4s linear;
+}
+
+section p{
+    visibility:hidden;
+}
+
+section:hover {
+    background-color: black;
+    color:white;
+}
+
+section:hover p{
+    visibility: visible;
+}
+
+@media (any-hover: hover) {
+    a:hover {
+      background: yellow;
+    }
+  }
+
+#footer{
+    color: rgb(253, 173, 0);
+    min-height: 100vh;
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+    width: 50vw;
+}
+
+#footer:hover{
+    background-color: black;
+    color: rgb(231, 218, 218);
+}
+ 
+@keyframes spin{
+    0%{
+        transform:rotate(odeg);
+    }
+    100%{
+        transform:rotate(360deg)
+    }
+}
+
+@-webkit-keyframes spin {
+    0%{
+        transform:rotate(odeg);
+    }
+    100%{
+        transform:rotate(360deg)
+    }
+}
