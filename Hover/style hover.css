@@ -60,16 +60,21 @@ section:hover p{
 
 #footer{
     color: rgb(253, 173, 0);
-    min-height: 100vh;
+    min-height: 50vh;
     align-items: flex-end;
     justify-content: center;
     display: flex;
     width: 50vw;
+    background-image: url(signature\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 150px;
 }
 
 #footer:hover{
     background-color: black;
-    color: rgb(231, 218, 218);
+    color: rgb(146, 17, 158);
+    background-color: white;
 }
  
 @keyframes spin{
@@ -89,3 +94,58 @@ section:hover p{
         transform:rotate(360deg)
     }
 }
+
+.element {
+    height: 80px;
+    width: 80px;
+    background-color: rgba(255, 136, 0, 0.89);
+    animation: 
+      pulse 5s ease infinite alternate, 
+      nudge 8s linear infinite alternate;
+    border-radius: 100%;
+  }
+
+.square{
+    height: 65px;
+    width: 70px;
+    background-color: lightcoral;
+}
+
+
+  
+  @keyframes pulse {
+    0%, 100% {
+      background-color: red;
+    }
+    15%{
+        background-color: lightcoral
+    }
+
+    25%{
+        background-color: lightpink;
+    }
+
+    50% {
+      background-color: orange;
+    }
+    75% {
+        background-color: rgb(133, 54, 133);
+    }
+
+    90%{
+        background-color: indigo;
+    }
+  }
+  
+  @keyframes nudge {
+    0%, 100% {
+      transform: translate(0px, 0);
+    }
+    
+    50% {
+      transform: translate(550px, 0);
+    }
+  }
+  
+
+  
