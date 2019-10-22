@@ -1,0 +1,30 @@
+html, body{
+    height:100%;
+    margin: 0;
+}
+
+body{
+    background-image: url(moodboard.JPG);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1{
+    text-align: right;
+    font-size: 60px;
+}
+
+
+#project1, #project2{
+    text-align:end;
+    font-size: 20px;
+}
+
+#project1:hover{
+    font-size: 25px;
+}
+
+#project2:hover{
+    font-size: 25px;
+    
+}

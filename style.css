@@ -1,6 +1,12 @@
 html, body{
-    height:60%;
-   
+    height:100%;
+    margin: 0;
+}
+
+.content {
+    padding: 20px;
+    min-height: 100%;
+    margin: 0 auto -50px;
 }
 
 #container{
@@ -16,21 +22,28 @@ html, body{
 
 
 #footer{
+    justify-content: baseline;
     font-size:15px;
     text-align: right;
     font: bold;
     background-color: rgb(117, 86, 122);
     opacity: 0.8;
-    position: relative;
+    position: fixed;
     height:45px;
     margin-top:-2px;
     clear: both;
 } 
 
+.footer,
+.push {
+  height: 50px;
+
+}
+
 body{
+    background-image: url('persona1.jpg')   ;
     text-align: right;
-    background-image: url("background.gif");
-    background-size: cover;
+    /* background-size: cover; */
     background-repeat: no-repeat;
     background-position: center;
     }
@@ -42,16 +55,15 @@ body{
     }
 
 
-
-    
-
-    #one,#two,#three,#four{
+#one,#two,#three,#four{
         float:left;
+        text-align: center;
         font-size: 30px;
         color: white;
         background:#b19cb9;
-        width:25vw;height:65px;
-        opacity: 0.35;
+        width:25%;
+        height:65px;
+        opacity: 0.6;
     }
     
 
