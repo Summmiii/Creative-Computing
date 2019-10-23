@@ -43,10 +43,10 @@ body{
 
 
 #footer{
-    font-size:15px;
+    font-size:11px;
     text-align: right;
     font: bold;
-    padding-top: 40vw;
+    padding-top: 15vw;
     clear: both;
     position: sticky;
 } 

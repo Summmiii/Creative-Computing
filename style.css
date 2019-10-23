@@ -5,7 +5,7 @@ html, body{
 
 .content {
     padding: 20px;
-    min-height: 100%;
+    min-height: 500%;
     margin: 0 auto -50px;
 }
 
@@ -14,44 +14,36 @@ html, body{
 }
 
 #main{
-    overflow:auto;
-    padding-bottom: 70px;
+    padding-bottom: 10px;
     font-size: 110px;
     text-align: center;
 }
 
 
 #footer{
-    justify-content: baseline;
     font-size:15px;
-    text-align: right;
+    text-align: center;
     font: bold;
-    background-color: rgb(117, 86, 122);
-    opacity: 0.8;
-    position: fixed;
-    height:45px;
-    margin-top:-2px;
+    padding-top: 9vw;
     clear: both;
+    position: sticky;
+    padding-right: 1.5rem;
 } 
 
-.footer,
-.push {
-  height: 50px;
 
-}
 
 body{
     background-image: url('persona1.jpg')   ;
     text-align: right;
-    /* background-size: cover; */
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:bottom;
     }
 
     
-    header{
-        font-size: 30px;
-        font: bold;
+header{
+    font-size: 30px;
+    font: bold;
+    padding-right: 1.5rem;
     }
 
 
@@ -60,12 +52,18 @@ body{
         text-align: center;
         font-size: 30px;
         color: white;
-        background:#b19cb9;
+        background:#d2bdda;
         width:25%;
-        height:65px;
+        height:68px;
         opacity: 0.6;
     }
-    
+
+#one:hover,#two:hover,#three:hover,#four:hover{
+    font-size: 50px;
+    opacity: 1.0;
+    background-color: #eaddf0;
+} 
+
 
 nav ul li{
     list-style-type: none;
@@ -75,8 +73,5 @@ nav ul li a:hover{
     color:white
 }
 
-#header{
-    font-size: 10px;
-} 
 
 
