@@ -37,5 +37,17 @@ a:hover{
 
 #project2:hover{
     font-size: 25px;
-    
+}
+
+#home{
+    text-align: right;
+    padding-right: 1.5rem;
+    font-size: 37px;
+    opacity: 0.5;
+}
+
+#home:hover{
+    color: blueviolet;
+    opacity: 0.8;
+    font-size: 40px;
 }
