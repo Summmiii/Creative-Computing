@@ -1,6 +1,7 @@
 html, body{
     height:100%;
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body{
@@ -12,8 +13,10 @@ body{
 h1{
     text-align: right;
     font-size: 60px;
-    color: rgb(170, 170, 170);
+    color: black;
     padding-right: 1.5rem;
+    font-style: italic;
+    font-weight: bolder;
 }
 
 a{
@@ -25,6 +28,12 @@ a:hover{
     text-decoration: none;
 }
 
+.projects{
+    font-weight: lighter;
+}
+
+
+
 #project1, #project2, #project3{
     text-align:end;
     font-size: 20px;
@@ -32,7 +41,9 @@ a:hover{
 }
 
 #project1:hover , #project2:hover, #project3:hover{
-    font-size: 25px;
+    font-size: 23px;
+    font-weight: bold;
+    font-style: italic;
 }
 
 #home{

@@ -1,6 +1,7 @@
 html, body{
     height:100%;
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .content {
@@ -11,12 +12,19 @@ html, body{
 
 #container{
     min-height: 70%;
+    font-weight: bolder;
 }
 
 #main{
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     font-size: 110px;
     text-align: center;
+    font-style: italic;
+}
+
+h1{
+    font-weight: bolder;
+    font-style: italic;
 }
 
 
@@ -50,18 +58,21 @@ header{
 #one,#two,#three,#four{
         float:left;
         text-align: center;
-        font-size: 30px;
+        font-size: 40px;
+        font-weight: lighter;
         color: white;
         background:#d2bdda;
         width:25%;
         height:68px;
         opacity: 0.6;
+        padding-top: 1.5rem;
     }
 
 #one:hover,#two:hover,#three:hover,#four:hover{
     font-size: 50px;
     opacity: 1.0;
     background-color: #eaddf0;
+    font-weight: bold;
 } 
 
 
