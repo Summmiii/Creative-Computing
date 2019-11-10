@@ -25,17 +25,13 @@ a:hover{
     text-decoration: none;
 }
 
-#project1, #project2{
+#project1, #project2, #project3{
     text-align:end;
     font-size: 20px;
     padding-right: 1.5rem;
 }
 
-#project1:hover{
-    font-size: 25px;
-}
-
-#project2:hover{
+#project1:hover , #project2:hover, #project3:hover{
     font-size: 25px;
 }
 

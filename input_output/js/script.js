@@ -1,5 +1,6 @@
 // console.log('--js loaded--');
 
+
 const userInput = window.prompt('What is your name?');
 const userOutputEl = document.getElementById('output');
 
@@ -10,4 +11,4 @@ console.log(userOutputEl);
 //userOutputEl.innerText = "Hello. " + userInput+ "!";
 userOutputEl.innerText = `Hello, ${userInput}!`;
 
-document.body.onmousemove = function(){document.body.innerHTML += `<h1 style="color:rgb(${Math.random()*175},${Math.random()*175},${Math.random()*175})">Your Mouse Just Moved</h1>`}
+document.body.onmousemove = function(){document.body.innerHTML += `<h1 class=mouse style="color:rgb(${Math.random()*175},${Math.random()*175},${Math.random()*175})">Your Mouse Just Moved</h1>`}
