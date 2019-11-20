@@ -15,7 +15,7 @@ body {
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-style: italic;
    justify-content: center;
    min-height: 80%;
-   background-image: url(/Users/sumi/Documents/GitHub/calculator-template/icon.png);
+   background-image: url(icon.png);
    background-repeat: no-repeat;
    padding-top: 21em;
 }
