@@ -40,7 +40,7 @@ a:hover{
     padding-right: 1.5rem;
 }
 
-#project1:hover , #project2:hover, #project3, #project:hover{
+#project1:hover , #project2:hover, #project3:hover,#project4:hover{
     font-size: 23px;
     font-weight: bold;
     font-style: italic;
