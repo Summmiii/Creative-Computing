@@ -10,10 +10,12 @@ ul#filters li a {
     display: flex;
     padding: 2rem;
     text-decoration: none;
+    background-color: burlywood;
 }
 
 ul#filters li a:hover{
     text-decoration: underline;
+    color: white;
 }
 
 ul#filters{
@@ -21,7 +23,6 @@ ul#filters{
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
-
 }
 
 ul#fonts{
@@ -30,11 +31,15 @@ ul#fonts{
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
-
 }
+
 
 ul#fonts li img{
     width:200px;
+}
+
+ul#fonts li:hover{
+    width: 300px;
 }
 
 .hide{
