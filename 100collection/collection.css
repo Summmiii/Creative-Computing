@@ -16,8 +16,7 @@ ul#filters li a:hover{
     text-decoration: underline;
 }
 
-ul#filters,
-ul#fonts{
+ul#filters{
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -25,6 +24,19 @@ ul#fonts{
 
 }
 
+ul#fonts{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
 ul#fonts li img{
-    width:5px;
+    width:200px;
+}
+
+.hide{
+    display: none;
 }
