@@ -1,3 +1,30 @@
+ul,
 li{
     list-style: none;
+}
+
+
+ul#filters li a {
+    color: black;
+    font-size: 30px;
+    display: flex;
+    padding: 2rem;
+    text-decoration: none;
+}
+
+ul#filters li a:hover{
+    text-decoration: underline;
+}
+
+ul#filters,
+ul#fonts{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+ul#fonts li img{
+    width:5px;
 }
