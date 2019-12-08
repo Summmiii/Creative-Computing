@@ -12,7 +12,7 @@ body{
 
 h1{
     text-align: right;
-    font-size: 60px;
+    font-size: 55px;
     color: black;
     padding-right: 1.5rem;
     font-style: italic;
@@ -56,5 +56,6 @@ a:hover{
 #home:hover{
     color: blueviolet;
     opacity: 0.8;
-    font-size: 40px;
+    font-size: 42px;
+    font-style: italic;
 }
