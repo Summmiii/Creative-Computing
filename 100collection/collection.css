@@ -1,3 +1,8 @@
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
 ul,
 li{
     list-style: none;
@@ -16,6 +21,7 @@ ul#filters li a {
 ul#filters li a:hover{
     text-decoration: underline;
     color: white;
+    font-weight: bold;
 }
 
 ul#filters{
@@ -41,6 +47,16 @@ ul#fonts li img{
 ul#fonts li:hover{
     width: 300px;
 }
+
+#footer{
+    font-size:15px;
+    text-align: center;
+    font: bold;
+    padding-bottom: 0.2rem;
+    clear: both;
+    position: sticky;
+    padding-right: 2rem;
+ }
 
 .hide{
     display: none;
