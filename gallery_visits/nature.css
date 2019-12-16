@@ -17,6 +17,7 @@ html,body{
     margin-top: 7%;
     margin-left: 48%;
     background-image: url(curiositycloud.jpg);
+    background-repeat: no-repeat;
     position: absolute;
 }
 
