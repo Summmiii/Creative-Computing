@@ -1,0 +1,48 @@
+html,body{
+    width:100%;
+}
+
+
+#right{
+    width:35%;
+    height: 100%;
+    margin-left: 65%;
+    background-color: rgb(10, 10, 10);
+    position: absolute;
+}
+
+#image{
+    width: 45%;
+    height: 70%;
+    margin-top: 7%;
+    margin-left: 48%;
+    background-image: url(curiositycloud.jpg);
+    position: absolute;
+}
+
+#title{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 50px;
+    padding-top: 13%;
+    padding-left: 5%;
+}
+
+#paragraph{
+    margin-right: 54.5%;
+    margin-top: 5%;
+    padding-left: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+#note{
+    margin-left: 70%;
+    margin-top: 2.5%;
+    background-color:black;
+    color:white;
+    position: absolute;
+    font-size: 12px;
+    text-align: right;
+}
+
+

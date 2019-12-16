@@ -1,0 +1,51 @@
+html,body{
+    width:100%;
+}
+
+
+#right{
+    width:35%;
+    height: 100%;
+    margin-left: 65%;
+    background-color: rgb(10, 10, 10);
+    position: absolute;
+}
+
+#image{
+    width: 50%;
+    height: 80%;
+    margin-top: 5%;
+    margin-left: 48%;
+    background-image: url(paulgauguin.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+
+#title{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 50px;
+    padding-top: 13%;
+    padding-left: 5%;
+}
+
+#paragraph{
+    margin-right: 54.5%;
+    margin-top: 5%;
+    padding-left: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+#note{
+    margin-left: 77%;
+    margin-top: 2.5%;
+    background-color:black;
+    color:white;
+    position: absolute;
+    font-size: 12px;
+    text-align: right;
+    padding-left: 1%;
+    padding-top: 0.3%;
+}
+
